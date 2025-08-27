@@ -2,40 +2,36 @@ import java.util.Scanner;
 
 public class Interview {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String name="",career="",addressString="",hobby="",studyMajor="";
-       
+        Scanner sc = new Scanner(System.in);
+        String name = "", career = "", friends = "", addressString = "", hobby = "", studyMajor = "";
+
         System.out.print("Please input your name: ");
-        name=sc.nextLine();
+        name = sc.nextLine();
 
         System.out.print("Please input your career: ");
-        career=sc.nextLine();
+        career = sc.nextLine();
 
-        System.out.print("Please input your number of friends: ");
-       int friends=sc.nextInt();
+        System.out.print("Please input your  friends: ");
+        friends = sc.nextLine();
         System.out.print("Please input your age: ");
-        int age=sc.nextInt();
-        
+        int age = sc.nextInt();
+
         System.out.print("Please input your addressString: ");
-        addressString=sc.nextLine();
+        addressString = sc.nextLine();
 
         System.out.print("Please input your hobby: ");
-        hobby=sc.nextLine();
+        hobby = sc.nextLine();
 
         System.out.print("Please input your studing major: ");
-        studyMajor=sc.nextLine();
+        studyMajor = sc.nextLine();
 
-        System.out.println("Hi, Nice to meet you : "+name);
-        System.out.println("Your career : "+career);
-        System.out.println("Your friends : "+friends);
-        System.out.println("Your age : "+age);
-        System.out.println("Your addressString: "+addressString);
-        System.out.println("Your hobby : "+hobby);
-        System.out.println("Your studyMajor : "+studyMajor);
-
-        
-
-       
+        System.out.println("Hi, Nice to meet you : " + name);
+        System.out.println("Your career : " + career);
+        System.out.println("Your friends : " + friends);
+        System.out.println("Your age : " + age);
+        System.out.println("Your addressString: " + addressString);
+        System.out.println("Your hobby : " + hobby);
+        System.out.println("Your studyMajor : " + studyMajor);
 
     }
 }

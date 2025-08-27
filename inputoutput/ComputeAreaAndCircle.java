@@ -7,8 +7,8 @@ public class ComputeAreaAndCircle {
         System.out.print("Input integer of radiant : ");
         int radiant = sc.nextInt();
 
-        double area = (double) Math.PI * (radiant * radiant);
-        double circle = (double) 2 * Math.PI * radiant;
+        double area = Math.PI * (radiant * radiant);
+        double circle = 2 * Math.PI * radiant;
 
         System.out.print("So area of radiant is : " + area + " and circle =" + circle);
 

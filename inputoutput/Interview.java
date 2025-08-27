@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Interview {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String name = "", career = "", friends = "", addressString = "", hobby = "", studyMajor = "";
+        String name = "", career = "", friends = "", addressString = "", age = "", hobby = "", studyMajor = "";
 
         System.out.print("Please input your name: ");
         name = sc.nextLine();
@@ -14,7 +14,7 @@ public class Interview {
         System.out.print("Please input your  friends: ");
         friends = sc.nextLine();
         System.out.print("Please input your age: ");
-        int age = sc.nextInt();
+        age = sc.nextLine();
 
         System.out.print("Please input your addressString: ");
         addressString = sc.nextLine();

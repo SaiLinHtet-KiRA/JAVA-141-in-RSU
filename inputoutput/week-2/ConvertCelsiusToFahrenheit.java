@@ -7,7 +7,7 @@ public class ConvertCelsiusToFahrenheit {
         System.out.print("What is celsius degree: ");
         int celsius = sc.nextInt();
 
-        double fahrenheit = (double) (celsius * 9.0 / 5.0) + 32;
+        double fahrenheit = (celsius * 9.0 / 5.0) + 32;
         System.out.print("So temperature in fahrenheit is : " + fahrenheit);
 
     }

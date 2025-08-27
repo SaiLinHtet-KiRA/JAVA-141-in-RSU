@@ -11,7 +11,7 @@ public class Interview {
         System.out.print("Please input your career: ");
         career = sc.nextLine();
 
-        System.out.print("Please input your  friends: ");
+        System.out.print("Please input your friends: ");
         friends = sc.nextLine();
         System.out.print("Please input your age: ");
         age = sc.nextLine();

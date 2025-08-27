@@ -10,7 +10,7 @@ public class ComputeSqrtandPowerofIntValue {
         double Sqrt = Math.sqrt(number);
         int power = number * number;
 
-        System.out.print("So Sqrt of n = " + Sqrt + " and power of n =" + power);
+        System.out.print("So Sqrt of n = " + Sqrt + " and power of n = " + power);
 
     }
 }

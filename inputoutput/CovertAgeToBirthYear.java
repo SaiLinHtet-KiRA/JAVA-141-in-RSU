@@ -8,6 +8,6 @@ public class CovertAgeToBirthYear {
         int age = sc.nextInt();
         int birthYear = 2025 - age;
 
-        System.out.print("So your birth year is " + birthYear);
+        System.out.print("So your birth year is: " + birthYear);
     }
 }

@@ -14,12 +14,12 @@ public class ElectricCharge {
 
         if (eUsed > 200) {
             eCharge += (eUsed - 200) * 9.00;
-            eUsed = 200;
+
         }
 
         else if ((eUsed > 100) && (eUsed <= 200)) {
             eCharge += (eUsed - 100) * 7.00;
-            eUsed = 200;
+
         }
 
         if (eUsed <= 100)

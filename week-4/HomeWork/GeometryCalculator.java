@@ -28,7 +28,7 @@ public class GeometryCalculator {
           System.out.print("Input side of square : ");
           double side = sc.nextDouble();
 
-          System.out.println("Area of square : " + side * side);
+          System.out.println("Area of square : " + side * 2);
 
           break;
         case 3:

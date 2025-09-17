@@ -16,7 +16,7 @@ public class DepreciationCalculator {
     int year = 1;
     double depreciation = 1, net_cost = 0;
 
-    while (year<=5) {
+    while (depreciationCost > 0 && product_price > 1000) {
 
       depreciation = product_price * (depreciationCost / 100);
 

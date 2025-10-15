@@ -65,21 +65,19 @@ public class Practice3 {
         } else {
             System.out.println("Your value in array position is not found ");
         }
-        while (true) {
-            for (int i = 1; i <= num.length; i++) {
-
-                if (num[i - 1] < num[i]) {
-                    int temp = num[i - 1];
-                    num[i - 1] = num[i];
-                    num[i] = temp;
+        for (int i = 0; i < num.length - 1; i++) {
+            for (int j = 0; j < num.length - 1 - i; j++) {
+                if (num[j] > num[j + 1]) {
+                    int temp = num[j];
+                    num[j] = num[j + 1];
+                    num[j + 1] = temp;
                 }
-
             }
-            break;
         }
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.print("sorted:" + num[i - 1]);
+        System.out.println("Sorted array: ");
+        for (int i = 0; i < num.length; i++) {
+            System.out.print(num[i] + " ");
         }
     }
 }

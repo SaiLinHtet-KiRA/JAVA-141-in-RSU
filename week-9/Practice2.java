@@ -30,9 +30,9 @@ public class Practice2 {
             salesmens[i - 1][3] = profit;
 
             salesmens[i - 1][4] = sales >= 5000 ? profit * 0.05 : profit * 0.1;
-
+            System.out.println("------------------------------------ ");
         }
-        System.out.print("\tNumbe\tName\tSales\tValue\tProfit\tCommission");
+        System.out.println("\tNumbe\tName\tSales\tValue\tProfit\tCommission");
         for (int i = 1; i <= numOfSalemen; i++) {
             for (int z = 1; z <= 5; z++) {
                 if (z == 2) {
@@ -40,6 +40,7 @@ public class Practice2 {
                 }
                 System.out.print("\t" + salesmens[i - 1][z - 1]);
             }
+            System.out.println();
         }
 
     }

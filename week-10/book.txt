@@ -1,0 +1,4 @@
+001 computer 3 150
+002 social 2 300
+003 law 8 120
+004 food 4 180

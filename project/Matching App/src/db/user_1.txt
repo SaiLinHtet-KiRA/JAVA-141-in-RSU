@@ -1,0 +1,2 @@
+id,userName,password,name,gender,phone,age,zodiac sign,height,weight,hobby,bio
+1,KiRA,sai123pol,,,,,,,,
